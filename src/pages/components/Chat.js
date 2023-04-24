@@ -12,7 +12,7 @@ const Chat = () => {
     setMessages([...messages, { text: message, sender: 'user' }]);
     setInputValue('');
     // Send message to chatbot API
-    axios.post('/api/chatbot', { message }, { headers: { 'Content-Type': 'application/json' } })
+    axios.post('/api/chat', { message }, { headers: { 'Content-Type': 'application/json' } })
       .then((response) => {
         setMessages([...messages, { text: response.data.message, sender: 'bot' }]);
       })
@@ -52,8 +52,8 @@ const Chat = () => {
                       value={editInputValue}
                       onChange={(e) => setEditInputValue(e.target.value)}
                     />
-                    <button type="submit">Save</button>
-                    <button type="button" onClick={() => setEditingMessageIndex(null)}>
+                    <button className='edit-btn' type="submit">Save</button>
+                    <button className='delete-button ' type="button" onClick={() => setEditingMessageIndex(null)}>
                       Cancel
                     </button>
                   </form>
@@ -66,8 +66,8 @@ const Chat = () => {
                   <></>
                 ) : (
                   <>
-                    <button className='delete-button ' onClick={() => setEditingMessageIndex(index)}>Edit</button>
-                    <button className='edit-btn' onClick={() => handleDelete(index)}>Delete</button>
+                    <button className='edit-btn ' onClick={() => setEditingMessageIndex(index)}>Edit</button>
+                    <button className='delete-button ' onClick={() => handleDelete(index)}>Delete</button>
                   </>
                 )}
               </div>

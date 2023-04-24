@@ -1,16 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body,html {
+margin: 0;
+overflow-x: hidden;
+box-sizing: border-box;
+background-color: steelblue;
+font-family: 'Roboto', sans-serif;
+letter-spacing: 1px;
+}
 .chat-window {
   display: flex;
   flex-direction: column;
   margin: auto;
-  height: 500px;
-  width: 500px;
-  border: 1px solid black;
+
+
+height: 500px;
   padding: 10px;
 }
 .messages {
   flex-grow: 1;
-  overflow-y: scroll;
+
   margin-bottom: 10px;
 }
 .message {
@@ -23,6 +32,7 @@
   font-size: 1.2rem;
 letter-spacing: 1px;
 padding: 1rem;
+color: #fff;
 }
 .received {
   background-color: #f1f0f0;
@@ -33,6 +43,7 @@ padding: 1rem;
 }
 .message-input {
   display: flex;
+ 
 }
 input[type="text"] {
   flex-grow: 1;
@@ -41,12 +52,14 @@ input[type="text"] {
   border-radius: 5px;
   border: none;
   font-size: 16px;
+  text-indent: 8px;
+  border: solid 1px #007bff;
 }
-button[type="submit"] {
+.submitbtn {
   padding: 10px;
   border-radius: 5px;
   border: none;
-  background-color: #008000;
+  background-color: #80004b;
   color: white;
   font-size: 16px;
   cursor: pointer;
