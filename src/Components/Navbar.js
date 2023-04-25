@@ -28,7 +28,13 @@ Call us, we're open 24/7
 </div>
 </header>
 
-<nav></nav>
+<nav className='navbar'>
+<ul className='navlinks'>
+<li><Link href='#!'>Home</Link></li>
+<li><Link href='#!'>Travel News</Link></li>
+<li><Link href='#!'>Contact</Link></li>
+</ul>
+</nav>
 </>
 )
 }
