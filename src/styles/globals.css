@@ -183,8 +183,6 @@ padding: 0.8rem 0;
 }
     
 .card {
-/* background-color: white;
-box-shadow: 4px 10px 7px 0px #000000bf; */
 overflow: hidden;
 border-radius: .5rem;
 max-width: 30rem;
@@ -200,8 +198,7 @@ justify-content: space-between
 .authflex p{
 margin: .75rem 1rem;
 background-color: #8BC6EC;
-background-image: linear-gradient(206deg, #8BC6EC 0%, #9599E2 100%);
-
+background-image: linear-gradient(206deg, #1707aa 0%, #061deb 100%);
 border-radius: 7px;
 padding: 5px 8px;
 color: #fff;  
@@ -275,23 +272,23 @@ color: #fff;}
 
 /* blog details css starts here */
 .article-container{
-    max-width: 50rem;
-    margin: auto;
-    }
-     
-      
-    .backbtn-box{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1rem;
-    }
-      
-    .backbtn-box h1{
-    font-size: 34px;
-    font-weight: bold;
-    color: grey;
-    text-align: center;
-    }
+max-width: 50rem;
+margin: auto;
+}
+ 
+  
+.backbtn-box{
+display: flex;
+justify-content: space-between;
+padding: 0 1rem;
+}
+  
+.backbtn-box h1{
+font-size: 34px;
+font-weight: bold;
+color: grey;
+text-align: center;
+}
       
 .backbtn{
 display: inline-block;

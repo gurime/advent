@@ -30,7 +30,7 @@ Call us, we're open 24/7
 
 <nav className='navbar'>
 <ul className='navlinks'>
-<li><Link href='#!'>Home</Link></li>
+<li><Link href='/'>Home</Link></li>
 <li><Link href='#!'>Travel News</Link></li>
 </ul>
 </nav>

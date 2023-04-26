@@ -28,7 +28,7 @@ return (
 <h1 id="he-h1">We will find you the perfect getaway</h1>
 
 <form >
-<input type="text" placeholder="Find your next Destination! "/>
+<input type="type" placeholder="Find your next Destination! "/>
 <button className="form-btn" type="submit">
 <Image src={searchimg} width={14} alt='...'  />
 </button>
@@ -70,19 +70,18 @@ Looking for inspiration for your next trip? Check out some of our top featured d
 </div>
 {/* <!-- plan stops here --> */}
 
+
+{/* tropical hero stops here */}
 <div className="tropic-hero">
-
 <div className="tropic-hero-title">
-
 <h1 style={{
 color:'#fff',
 fontSize:'5rem',
 textAlign:'center',textTransform:'capitalize'
 }}>Tropical vacation blogs</h1>
 </div>
-
 </div>
-
+{/* tropical hero stops here */}
 
 
 <div className='card-grid'>
