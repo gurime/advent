@@ -121,7 +121,7 @@ frontmatter,
  
 
 
-// posts.sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date));
+posts.sort((a, b) => new Date(a.frontmatter.date) - new Date(b.frontmatter.date));
 return {
 props: {
 posts,
