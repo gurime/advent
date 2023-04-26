@@ -31,7 +31,7 @@ return (
 <Head>
 <meta name="description" 
 content="Stay up-to-date with the latest breaking news and current events with our comprehensive coverage." />
-<title>Itruth News | Articles</title>
+<title>Journey | Articles</title>
 </Head>
 <Navbar />
 <div className="article-container">

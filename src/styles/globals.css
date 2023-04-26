@@ -18,6 +18,10 @@ padding: 0 1rem;
 place-items: center;
 }
 
+.header-logo-box img{
+    cursor: pointer;
+}
+
 .contact-box{
 font-size: 24px;
 color: purple;
@@ -284,7 +288,7 @@ padding: 0 1rem;
 }
   
 .backbtn-box h1{
-font-size: 34px;
+font-size: 30px;
 font-weight: bold;
 color: grey;
 text-align: center;
@@ -336,11 +340,7 @@ font-weight: 500;
 width: 100%;
 object-fit: cover;
 }
-    
-
-    
-   
-   
+ 
     
 .bodyBlock{
 display: grid;
@@ -348,12 +348,8 @@ padding: 1rem;
 line-height: 2;
 letter-spacing: 1px;
 }
-    
-    
-    
    
-    
-    /* blog details css stops here */
+/* blog details css stops here */
 
 
 /* contact css page */
@@ -362,9 +358,8 @@ letter-spacing: 1px;
 .formbox{
 display: flex;
 flex-direction: column;
-
 margin: 1rem auto;
-border-bottom: solid 1px grey;
+padding: 0 1rem;
 }
 
 .formbox label{
@@ -377,20 +372,20 @@ text-transform: capitalize;
 padding: 1rem 0;
 margin-bottom: 1rem;
 outline: none;
-width: 30vw;
+
 }
 
 .formbox select{
 padding: 1rem 0;
 margin-bottom: 1rem;
 outline: none;   
-width: 15vw;
+width: 30vw;
 }
 
 .formbox textarea{
 resize: none;
 margin-bottom: 1rem;
-width: 30vw;
+
 }
 
 .formbox button{
@@ -480,7 +475,7 @@ margin-bottom: 1.5rem;
 /* about css */
     
 
-
+/* footer css */
 footer {
 padding: 3px;
 background: radial-gradient(#722977, #a00c9b);
@@ -508,6 +503,7 @@ color: #fff;
 font-size: 24px;
 font-weight: 600;
 letter-spacing: 2px;
+border-bottom: solid 1px #fff;
 }
 
 .footer-navlink{
@@ -547,8 +543,23 @@ border-right: none;
 .right-plan{
 border-top: solid 1px #fff;
 }
+
+/* @details css */
+.backbtn-box h1{
+font-size: 14px !important;
+}
+
+.body-content h1{
+font-size: 1.5rem;
+}
+/* @details css */
+
+/* @footer css */
 .footer-tablebox{
 border-right: none;
+}
+.footer-headline{
+border-bottom: none
 }
 
 .flex-footer{
@@ -560,4 +571,6 @@ flex-direction: column;
 .footer-navlink{
 border-bottom: solid 1px #fff;
 }
+/* @footer css */
+
 }

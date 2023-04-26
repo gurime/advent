@@ -56,16 +56,16 @@ return (
 </div>
 {/*seconds tablebox stops here*/}
 <div className="footer-tablebox"> 
-<div className="footer-headline">World News</div>
+<div className="footer-headline">Popular Destinations</div>
 
 <ul className="footer-navlink">
-<li><Link href='/footerpages/Mexico'>Mexico</Link></li>
+<li><Link href='/footerpages/Mexico'>Cancun</Link></li>
 
-<li><Link href='/footerpages/SouthAmerica'>South America</Link></li>
+<li><Link href='/footerpages/SouthAmerica'>Paris</Link></li>
 
-<li><Link href='/footerpages/Europe'>Europe </Link></li>
+<li><Link href='/footerpages/Europe'>Australia </Link></li>
 
-<li><Link href='/footerpages/Asia'>Asia</Link></li>
+<li><Link href='/footerpages/Asia'>Egypt</Link></li>
 
 <li><Link href='/footerpages/Africa'>Africa</Link></li>
 
