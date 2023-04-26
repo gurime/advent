@@ -8,6 +8,7 @@ import searchimg from '../pages/img/white_search.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import Card from '@/Components/Card'
+import Footer from '@/Components/Footer';
 export default function Home({posts}) {
 return (
 <>
@@ -19,7 +20,7 @@ return (
 </Head>
 <Navbar/>  
 
-<div class="hero">
+<div className="hero">
 
 
 {/* hero starts here */}
@@ -29,7 +30,7 @@ return (
 <form >
 <input type="text" placeholder="Find your next Destination! "/>
 <button className="form-btn" type="submit">
-<Image src={searchimg} width={14} alt='...' priorty />
+<Image src={searchimg} width={14} alt='...'  />
 </button>
 </form>
 </div>
@@ -76,25 +77,20 @@ Looking for inspiration for your next trip? Check out some of our top featured d
 <h1 style={{
 color:'#fff',
 fontSize:'5rem',
-textAlign:'center'
-}}>Tropical vacation awaits</h1>
+textAlign:'center',textTransform:'capitalize'
+}}>Tropical vacation blogs</h1>
 </div>
 
 </div>
 
-<h1 style={{
-color:'grey',
-borderBottom:'1px solid grey',
-lineHeight:'2',
-textTransform:'capitalize',
-padding:'0 1rem'
-}}>headline news</h1>
+
 
 <div className='card-grid'>
 {posts && posts.map((post, index) => (
 <Card key={index} post={post}/>
 ))}
 </div>
+<Footer/>
 </>
 )
 }

@@ -115,26 +115,33 @@ place-items: center;
 .left-plan{
 background-color: #2e43d8;  
 color: #fff;
-border-right: solid  1px #fff;
+border-right: solid  3px #fff;
 height: 100%;
+width: 100%;
+
 }
 
 .left-plan p{
 line-height: 24px;
+font-weight: 600;
 }
 .left-plan li{
 list-style: none;
-line-height: 24px;
+line-height: 24px; 
+font-weight: 600;
 }
 
 .right-plan{
 background-color: #2e43d8;  
 color: #fff;
 height: 100%;
+width: 100%;
+
 }
 
 .right-plan p{
 line-height: 24px;
+font-weight: 600;
 }
 
 .right-plan li{
@@ -146,6 +153,7 @@ color: #fff;
 text-decoration: none;
 line-height: 24px;
 list-style: none;
+font-weight: 600;
 }
 
 .tropic-hero{
@@ -265,6 +273,181 @@ color: #fff;}
   
 /*card css stops here*/
 
+
+
+
+/* contact css page */
+
+
+.formbox{
+display: flex;
+flex-direction: column;
+
+margin: 1rem auto;
+border-bottom: solid 1px grey;
+}
+
+.formbox label{
+margin-bottom: 1rem;
+letter-spacing: 1px;
+text-transform: capitalize;
+}
+
+.formbox input{
+padding: 1rem 0;
+margin-bottom: 1rem;
+outline: none;
+width: 30vw;
+}
+
+.formbox select{
+padding: 1rem 0;
+margin-bottom: 1rem;
+outline: none;   
+width: 15vw;
+}
+
+.formbox textarea{
+resize: none;
+margin-bottom: 1rem;
+width: 30vw;
+}
+
+.formbox button{
+background-color:#6d1ffa;
+border: none;
+border-radius: 10px;
+color: #fff;
+cursor: pointer;
+outline: none;
+padding: 20px;
+}
+
+
+/* contact css page */
+
+/* termsofuse css page */
+.container-terms{
+display: grid;
+place-items: center;
+padding: 0 1rem;
+}
+
+.itterms h1{
+color: #f33030;
+letter-spacing: 1px;
+}
+
+.textblock{
+letter-spacing: 1px;
+}
+
+.textblock p{
+line-height: 2;
+font-weight: 600;
+font-size: 14px;
+}
+
+.textblock li{
+margin-bottom: 1rem;
+}
+
+/* termsofuse css page */
+
+
+/* feedback css */
+.feedback-block{
+margin: auto;
+width: auto;
+padding: 0 1rem;
+}
+/* feedback css */
+    
+ 
+    
+/* about css */
+.about-wall{
+max-width: 70%;
+margin: auto;
+}
+.about-wall img{
+width: 100%;
+height: auto;
+object-fit: cover;
+object-position: center;
+}
+  
+.about-container {
+font-size: 1.2rem;
+line-height: 1.5;
+margin: 2rem;
+}
+  
+.about-container h2 {
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+  
+.about-container h3 {
+font-size: 1.5rem;
+margin-top: 2rem;
+margin-bottom: 1rem;
+}
+  
+.about-container p {
+margin-bottom: 1.5rem;
+}
+/* about css */
+    
+
+
+footer {
+padding: 3px;
+background: radial-gradient(#722977, #a00c9b);
+text-align: center;
+}
+    
+          
+.flex-footer{
+display: flex;
+place-content: center;
+border-bottom: solid 1px #fff;
+}
+
+.footer-tablebox{
+width: 100%;
+border-right: solid 1px #fff;
+padding-bottom: 10px;
+padding-top: 10px;
+}
+  
+  
+   
+.footer-headline{
+color: #fff;
+font-size: 24px;
+font-weight: 600;
+letter-spacing: 2px;
+}
+
+.footer-navlink{
+margin: auto;
+padding: 0;
+}
+
+.footer-navlink li{
+list-style-type: none;
+}
+
+.footer-navlink a{
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+line-height: 2.5;
+cursor: pointer;
+}
+          
+/* footer css stops here */
 
 @media(max-width:768px){
 .header{
