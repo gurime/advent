@@ -1,6 +1,6 @@
 ---
 title: 'How Airlines are Tackling the Summer Travel Rush'
-date: 'March 5, 2030'
+date: 'April 15, 2030'
 author: "Phillip Bailey"
 category: 'Coding'
 excerpt: 'Summer is the busiest season for airlines as millions of people take to the skies for vacations, family reunions, and other leisure activities. However, the COVID-19 pandemic has created new challenges for airlines, making it more important than ever for them to have effective strategies in place to handle the summer travel rush.'
