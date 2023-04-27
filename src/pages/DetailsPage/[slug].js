@@ -117,7 +117,8 @@ cursor: 'pointer',
 export async function getStaticPaths() {
 const folders = [
 'Articles',
-
+'TravelArticles',
+'FeaturedArticles',
 ];
 
 
@@ -144,7 +145,8 @@ fallback: false
 export function getStaticProps({ params: { slug } }) {
 const folders = [
 'Articles', 
-
+'TravelArticles',
+'FeaturedArticles',
 ];
     
 let markdownWithMeta;
