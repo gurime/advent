@@ -8,6 +8,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Card from '@/Components/Card'
 import Footer from '@/Components/Footer';
+import indopic from '../pages/img/indopic.jpg'
+import parispic from '../pages/img/parispic.jpg'
 export default function Home({posts}) {
 return (
 <>
@@ -42,15 +44,14 @@ return (
 <div className="left-plan">
 <h1 style={{padding:'0 20px'}}>Plan Your Adventure</h1>
 <p style={{padding:'0 20px'}}>
-Are you ready to embark on your next journey? Let us help you plan the adventure of a lifetime! Our website offers a wide range of travel resources to help you make the most of your trip. 
-</p>
+Are you ready to embark on your next journey? <br/> Let us help you plan the adventure of a lifetime! Our website offers a wide range of travel resources to help you make the most of your trip. From searching for flights and hotels to finding exciting activities and insider tips, we’ve got you covered.
 
-<ul style={{padding:'0 20px'}}>
-<li>Search for flights, hotels, and activities</li>
-<li>Read travel guides and insider tips</li>
-<li>Save your favorite destinations and itineraries</li>
-<li>Get up-to-date information on travel restrictions and health and safety measures</li>
-</ul>
+With our easy-to-use search tools, you can find the best deals on flights and accommodations. Browse our extensive collection of travel guides and insider tips to discover hidden gems and must-see attractions at your destination.
+
+Save your favorite destinations and itineraries for easy access and planning. Stay up-to-date with the latest information on travel restrictions and health and safety measures to ensure a smooth and worry-free trip.
+
+Start planning your adventure today with our comprehensive travel resources. Your next journey awaits!
+</p>
 </div>
 
 <div className="right-plan">
@@ -59,10 +60,22 @@ Are you ready to embark on your next journey? Let us help you plan the adventure
 Looking for inspiration for your next trip? Check out some of our top featured destinations below!
 </p>
 <ul style={{padding:'0 20px'}}>
-<li><Link href="#">Bali, Indonesia</Link></li>
-<li><Link href="#">Paris, France</Link></li>
-<li><Link href="#">Machu Picchu, Peru</Link></li>
-<li><Link href="#">Santorini, Greece</Link></li>
+
+<li>
+<Link href="#!">
+<div className='planflex'>
+<p>Bali, Indonesia</p>
+<Image width={200} src={indopic}/></div>
+</Link>
+</li>
+<li>
+<Link href="#!">
+<div className='planflex'>
+<p>Paris, Italy</p>
+<Image width={200} src={parispic}/></div>
+</Link>
+</li>
+
 </ul>
 </div>
 

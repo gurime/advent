@@ -129,11 +129,7 @@ width: 100%;
 line-height: 24px;
 font-weight: 600;
 }
-.left-plan li{
-list-style: none;
-line-height: 24px; 
-font-weight: 600;
-}
+
 
 .right-plan{
 background-color: #2e43d8;  
@@ -143,6 +139,7 @@ width: 100%;
 
 }
 
+
 .right-plan p{
 line-height: 24px;
 font-weight: 600;
@@ -150,6 +147,7 @@ font-weight: 600;
 
 .right-plan li{
 list-style: none;
+
 }
 
 .right-plan a{
@@ -158,6 +156,14 @@ text-decoration: none;
 line-height: 24px;
 list-style: none;
 font-weight: 600;
+}
+
+.planflex{
+display: flex;
+place-items: center;
+justify-content: space-between;
+border: solid 1px #fff;
+padding: 1rem;
 }
 
 .tropic-hero{
