@@ -65,14 +65,14 @@ Looking for inspiration for your next trip? Check out some of our top featured d
 <Link href="#!">
 <div className='planflex'>
 <p>Bali, Indonesia</p>
-<Image width={200} src={indopic}/></div>
+<Image width={200} src={indopic} alt='...'/></div>
 </Link>
 </li>
 <li>
 <Link href="#!">
 <div className='planflex'>
 <p>Paris, Italy</p>
-<Image width={200} src={parispic}/></div>
+<Image width={200} src={parispic} alt='...'/></div>
 </Link>
 </li>
 
